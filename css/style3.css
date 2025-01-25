@@ -1,0 +1,123 @@
+/* style.css */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Light background */
+    color: #333; /* Dark text for contrast */
+}
+
+header {
+    background-color: #6495ED;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+    max-width: 960px; /* Set a max width for better readability on larger screens */
+    margin: 20px auto; /* Center the content */
+}
+
+.category {
+    margin-bottom: 2rem;
+    background-color: white; /* White background for category sections */
+    padding: 1rem;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.item {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee; /* Light gray separator between items */
+}
+.item:last-child{
+    border-bottom: none;
+}
+
+.price {
+    font-weight: bold;
+    color: #007bff; /* Blue price color */
+    margin-top: 0.5rem;
+}
+
+footer {
+    background-color: #6495ED;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+h1,h2,h3{
+    text-align: center;
+}
+.laptop1 {
+    width: 300px;
+    padding: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button01{
+    background-color: #007bff;
+    padding: 15px;
+    direction: ltr;
+
+}
+.laptop02{
+    width: 300px;
+    padding: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Teamwork{
+    width: 300px;
+    padding: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+.desktops{
+    width: 300px;
+    padding: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Iphone16{
+    width: 300px;
+    padding: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mouse1{
+    width: 300px;
+    padding: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
