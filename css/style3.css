@@ -77,12 +77,16 @@ h1,h2,h3{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    cursor: pointer;
+    position: relative;
 }
 .button01{
     background-color: #007bff;
     padding: 15px;
     direction: ltr;
-
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+    cursor: pointer;
+    position: relative;
 }
 .laptop02{
     width: 300px;
@@ -90,6 +94,8 @@ h1,h2,h3{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    cursor: pointer;
+    position: relative;
 }
 .Teamwork{
     width: 300px;
@@ -106,6 +112,8 @@ h1,h2,h3{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    cursor: pointer;
+    position: relative;
 }
 .Iphone16{
     width: 300px;
@@ -113,6 +121,10 @@ h1,h2,h3{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    cursor: pointer;
+    position: relative;
+    transition: 0.2s;
+    transform: scale(1.05);
 }
 .mouse1{
     width: 300px;
@@ -120,4 +132,6 @@ h1,h2,h3{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    cursor: pointer;
+    position: relative;
 }
